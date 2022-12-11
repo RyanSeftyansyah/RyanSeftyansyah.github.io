@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <title>Ryan Seftyansyah</title>
+
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kodchasan&display=swap" rel="stylesheet">
+    <link rel="manifest" href="./manifest.json">
+
+    <!--  Bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!--  font awesome icons  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <!--  Magnific Popup css file  -->
+    <link rel="stylesheet" href="./dependencies/magnific-popup/dist/magnific-popup.css">
+
+    <!--  Owl-carousel css file  -->
+    <link rel="stylesheet" href="./dependencies/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./dependencies/owl-carousel/css/owl.theme.default.min.css">
+
+    <!--  custom css file  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--  Responsive css file  -->
+    <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+
+<body id="body">
+    <!--  ======================= Start Header Area ============================== -->
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="top-nav-fixed">
+                <a class="navbar-brand" href="#" style="margin-left: 5%;">
+                    <img src="./img/logo/foto.png" width="60px" alt="logo">
+                </a>
+                <input class="toggle mobile-show" type="checkbox" checked onclick="toggleTheme()">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fas fa-stream"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" rel="noreferrer" href="https://drive.google.com/drive/folders/1c4-cpqiPF4S5iQqPy7kpNf_beXvhrEBX?usp=sharing"
+                                target="_blank"><mark>Projects</mark></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="certificates.html"><mark>Certificates</mark></a>
+                        </li>
+                        <li class="nav-item">
+                            <input class="toggle desktop-show" type="checkbox" checked onclick="toggleTheme()">
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--  ======================= End Header Area ============================== -->
+
+    <!--  ======================= Start Main Area ================================ -->
+    <main class="site-main">
+
+        <!--  ======================= Start Banner Area =======================  -->
+        <section class="site-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h3 class="title-text text-uppercase">Hey, I am Ryan👋</h3>
+                        <h4 class="text-uppercase">I am a <span id="subheading"></span></h4>
+                        <hr>
+                        <p>💻 A computer science 2024 graduate.</p>
+                        <p>🤓 A passionate web developer exploring the edges of full stack <mark>JavaScript</mark>.</p>
+                        <p>😎 Proficient in digital art.</p>
+                        <p>💯 Have a strong appetite to learn new technologies in a short span and implement
+                            independently.</p>
+                            <p>🤔 Very high curiosity about new things.</p>
+                        <hr>
+                        <div class="social">
+                            <a target="_blank" rel="noreferrer" href="https://github.com/ryanseftyansyah" class="social-link"><i
+                                    class="fab fa-github"></i></a>
+                            <a target="_blank" rel="noreferrer" href="https://twitter.com/seftyansyahryan"
+                                class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a target="_blank" rel="noreferrer" href="https://instagram.com/ryanseftyansyahh"
+                                class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="mailto:ryanseftyansyah2525@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                        </div>
+                        <div class="site-buttons">
+                            <div class="d-flex flex-row flex-wrap">
+                                <button type="button" class="btn button primary-button mr-4 text-uppercase first-btn"><a
+                                        href="./assets/cv.pdf" target="_blank">RESUME &nbsp;<i
+                                            class="fas fa-external-link-alt" aria-hidden="true"></i></a></button>
+                                <button type="button" class="btn button secondary-button text-uppercase second-btn"><a
+                                        href="https://wa.me/6285156022141">Hire Me</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 banner-image">
+                        <lottie-player src="./img/banner/Blogging.json" background="transparent" speed="1" loop
+                            autoplay>
+                        </lottie-player>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  ======================= End Banner Area =======================  -->
+
+
+        <!--  ========================= Start Experience Area ==========================  -->
+        <section class="faq-section py-5" id="experience">
+            <div class="container single-col-max">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <div class="about-title">
+                            <h3 class="text-uppercase title-text" style="font-size: 35px;">Experience</h3>
+                        </div>
+                    </div>
+                </div>
+                <div id="exp-accordion" class="faq-accordion mx-auto">
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header border-0 p-4 theme-bg-light">
+                            <h4 class="card-title mb-0 exp">
+                                <i class="fas fa-building mr-2"></i>
+                                <a data-parent="#exp-accordion" data-toggle="collapse" class="card-toggle collapsed"
+                                    href="#experience5" aria-expanded="false">
+                                    <i class="fas fa-chevron-up"></i>
+                                    PT. TASPEN PERSERO CABANG DEPOK
+                                </a>
+                                <span>September - November 2019</span>
+                            </h4>
+                        </div>
+
+                        <div class="card-collapse collapse show" id="experience5">
+                            <div class="card-body p-4 bg-white">
+                                <b>Working as a Full document archiving</b>:</b>
+                                <ul>
+                                    <li>
+                                        Register retirement participants to earn pension allowance.
+                                    </li>
+                                    <li>
+                                        Recapitulation of pension data.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header border-0 p-4 theme-bg-light">
+                            <h4 class="card-title mb-0 exp">
+                                <i class="fas fa-building mr-2"></i>
+                                <a data-parent="#exp-accordion" data-toggle="collapse" class="card-toggle collapsed"
+                                    href="#experience4" aria-expanded="false">
+                                    <i class="fas fa-chevron-down"></i>
+                                    OSIS SMK AL - MUHAJIRIN</i>
+                                </a>
+                                <span>April 2021 - Mei 2022</span>
+                            </h4>
+                        </div>
+
+                        <div class="card-collapse collapse" id="experience4">
+                            <div class="card-body p-4 bg-white">
+                                <b>Work as a Member</b>:</b>
+                                <ul>
+                                    <li>Became Coordinator.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header border-0 p-4 theme-bg-light">
+                            <h4 class="card-title mb-0 exp">
+                                <i class="fas fa-building mr-2"></i>
+                                <a data-parent="#exp-accordion" data-toggle="collapse" class="card-toggle collapsed"
+                                    href="#experience1" aria-expanded="false">
+                                    <i class="fas fa-chevron-down"></i>
+                                    DRIVER SHOPEE FOOD
+                                </a>
+                                <span>januari 2021 - April 2021</span>
+                            </h4>
+                        </div>
+
+                        <div class="card-collapse collapse" id="experience1">
+                            <div class="card-body p-4 bg-white">
+                                <li>Worked as a Deliver food.</li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header border-0 p-4 theme-bg-light">
+                            <h4 class="card-title mb-0 exp">
+                                <i class="fas fa-building mr-2"></i>
+                                <a data-parent="#exp-accordion" data-toggle="collapse" class="card-toggle collapsed"
+                                    href="#experience2" aria-expanded="false">
+                                    <i class="fas fa-chevron-down"></i>
+                                    FREELANCER AND JOKI SERVICES
+                                </a>
+                                <span>Jan 2020 – At this time</span>
+                            </h4>
+                        </div>
+
+                        <div class="card-collapse collapse" id="experience2">
+                            <div class="card-body p-4 bg-white">
+                                <b>Work full time at home</b>
+                                <ul>
+                                    <li>Customer facing WordPress and static websites using <b>HTML, CSS &
+                                            Javascript</b>.</li>
+                                    <li>Digital art.</li>
+                                    <li>Do other people's work.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header border-0 p-4 theme-bg-light">
+                            <h4 class="card-title mb-0 exp">
+                                <i class="fas fa-building mr-2"></i>
+                                <a data-parent="#exp-accordion" data-toggle="collapse" class="card-toggle collapsed"
+                                    href="#experience3" aria-expanded="false">
+                                    <i class="fas fa-chevron-down"></i>
+                                    STUDENT ACTIVITY UNIT MANGER UNINDRA. (<i>BAVERA</i>)
+                                </a>
+                                <span>Mei 2022 – At this time</span>
+                            </h4>
+                        </div>
+
+                        <div class="card-collapse collapse" id="experience3">
+                            <div class="card-body p-4 bg-white">
+                                <b>Worked on Head of the communication department</b>
+                                <ul>
+                                    <li>Create instagram feeds.</li>
+                                    <li>Photo and video documentation.</li>
+                                    <li><b>Related to design and editing.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  ========================= End Experience Area ==========================  -->
+
+        <!--  ========================= Start Education Area ==========================  -->
+        <section class="faq-section py-5" id="education">
+            <div class="container single-col-max">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <div class="about-title">
+                            <h3 class="text-uppercase title-text" style="font-size: 35px;">Education</h3>
+                        </div>
+                    </div>
+                </div>
+                <div id="faq-accordion" class="faq-accordion mx-auto">
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header border-0 p-4 theme-bg-light">
+                            <h4 class="card-title mb-0 exp">
+                                <i class="fas fa-school mr-2"></i>
+                                <a data-parent="#faq-accordion" data-toggle="collapse" class="card-toggle collapsed"
+                                    href="#education1" aria-expanded="false">
+                                    <i class="fas fa-chevron-up"></i>
+                                    SMK AL - MUAHJIRIN DEPOK (<mark>COMPUTER AND NETWORK ENGINEERING</mark>)
+                                </a>
+                                <span>2017 - 2020</span>
+                            </h4>
+                        </div>
+
+                        <div class="card-collapse collapse show" id="education1">
+                            <div class="card-body p-4 bg-white ">
+                                <p>Completed the Senior High School at SMK AL - MUHAJIRIN DEPOK.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header border-0 p-4 theme-bg-light ">
+                            <h4 class="card-title mb-0 exp">
+                                <i class="fas fa-school mr-2"></i>
+                                <a data-parent="#faq-accordion" data-toggle="collapse" class="card-toggle collapsed"
+                                    href="#education2" aria-expanded="false">
+                                    <i class="fas fa-chevron-down"></i>
+                                    UNIVERSITAS INDRAPRASTA PGRI (<mark>COMPUTER SCIENCE</mark>)
+                                </a>
+                                <span>2020 - 2024</span>
+                            </h4>
+                        </div>
+
+                        <div class="card-collapse collapse" id="education2">
+                            <div class="card-body p-4 bg-white">
+                                <p>Completed a Bachelor's Degree in Computer Science.</p>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+        <!--  ========================= End Education Area ==========================  -->
+
+        <!--  ========================Start Production Skill Area ==============================  -->
+        <section id="skills">
+            <div class="container">
+                <div class="col-lg-12 text-center services-title">
+                    <h3 class="text-uppercase title-text" style="font-size: 35px;">Production Level Skills</h3>
+                </div>
+                <div class="integration-list row justify-content-center py-5">
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 bottom-line-lg">
+                        <img class="shadow rounded-circle" src="./img/skills/javascript.svg" alt="javascript">
+                        <p class="skill-label">JavaScript</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+                        <img class="shadow rounded-circle" src="./img/skills/html.svg" alt="html">
+                        <p class="skill-label">HTML5</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 top-line-lg">
+                        <img class="shadow rounded-circle" src="./img/skills/css.svg" alt="css">
+                        <p class="skill-label">CSS3</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+                        <img class="shadow rounded-circle" src="./img/skills/bootstrap.svg" alt="bootstrap">
+                        <p class="skill-label">Bootstrap</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+                        <img class="shadow rounded-circle" src="./img/skills/mysql.svg" alt="mysql">
+                        <p class="skill-label">MySQL</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  ======================== End Production Skill Area ==============================  -->
+
+        <!--  ========================Start Other Skill Area ==============================  -->
+        <section id="skills">
+            <div class="container">
+                <div class="col-lg-12 text-center services-title">
+                    <h3 class="text-uppercase title-text" style="font-size: 35px;">Other Relevant Skills</h3>
+                </div>
+                <div class="integration-list row justify-content-center py-5">
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 bottom-line-lg">
+                        <img class="shadow rounded-circle" src="./img/skills/php.svg" alt="php">
+                        <p class="skill-label">PhP</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+                        <img class="shadow rounded-circle" src="./img/skills/android.svg" alt="android">
+                        <p class="skill-label">Android</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+                        <img class="shadow rounded-circle" src="./img/skills/java.svg" alt="java">
+                        <p class="skill-label">Java</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+                        <img class="shadow rounded-circle" src="./img/skills/wordpress.svg" alt="wordpress">
+                        <p class="skill-label">Wordpress</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  ======================== End Skill Area ==============================  -->
+
+    </main>
+    <!--  ======================= End Main Area ================================ -->
+
+    <footer class="footer-area">
+        <div class="container">
+            <div class="">
+                <div class="site-logo text-center py-4">
+                    <img src="./img/logo/foto.png" width="60px" alt="logo">
+                </div>
+                <div class="text-center">
+                    <h5 class="text-uppercase">Connect me on</h5>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/ryanseftyansyah" class="social social-link"><i
+                            class="fab fa-github"></i></a>
+                    <a target="_blank" rel="noreferrer" href="https://twitter.com/seftyansyahryan" class="social social-link"><i
+                            class="fab fa-twitter"></i></a>
+                    <a target="_blank" rel="noreferrer" href="https://www.instagram.com/ryanseftyansyahh/"
+                        class="social social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:ryanseftyansyah2525@gmail.com" class="social social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="copyrights text-center">
+                    <p class="para">
+                        || thank you for coming ❤️️ ||
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button onclick="scrollToTop()" id="scroll-btn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script>
+        let theme = localStorage.getItem("portfolio-theme") ? localStorage.getItem("portfolio-theme") : 'light';
+        if (theme == 'light') {
+            document.getElementsByClassName('toggle')[0].checked = true;
+            document.getElementsByClassName('toggle')[1].checked = true;
+        } else {
+            document.getElementsByClassName('toggle')[0].checked = false;
+            document.getElementsByClassName('toggle')[1].checked = false;
+        }
+        document.addEventListener('DOMContentLoaded', () => {
+            if (theme == 'light') {
+                document.getElementById("body").classList.remove('dark');
+            }
+            else {
+                document.getElementById("body").classList.add('dark');
+            }
+        });
+
+        function toggleTheme() {
+            if (theme == 'light') {
+                document.getElementById("body").classList.add('dark');
+                theme = 'dark';
+                localStorage.setItem("portfolio-theme", 'dark');
+            }
+            else {
+                document.getElementById("body").classList.remove('dark');
+                theme = 'light';
+                localStorage.setItem("portfolio-theme", 'light');
+            }
+        }
+    </script>
+
+    <script src="./dependencies/Typewriter/typewriter.min.js"></script>
+
+    <script>
+        var typewriter = new Typewriter('#subheading', {
+            strings: ['SOFTWARE ENGINEER', 'FULL STACK DEVELOPER', 'GAMER', 'ILLUSTRATOR DIGITAL'],
+            autoStart: true,
+            loop: true,
+        });
+    </script>
+
+    <!--  Jquery js file  -->
+    <script defer src="./js/jquery.3.4.1.js"></script>
+
+    <!--  Bootstrap js file  -->
+    <script defer src="./js/bootstrap.min.js"></script>
+
+    <script defer src="./js/all.min.js"></script>
+
+    <!--  isotope js library  -->
+    <script defer src="./dependencies/isotope/isotope.min.js"></script>
+
+    <!--  Magnific popup script file  -->
+    <script defer src="./dependencies/magnific-popup/dist/jquery.magnific-popup.js"></script>
+
+    <!--  Owl-carousel js file  -->
+    <script defer src="./dependencies/owl-carousel/js/owl.carousel.min.js"></script>
+
+    <!--  custom js file  -->
+    <script defer src="./js/main.js"></script>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <!-- lottie-player -->
+    <script defer src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+
+</html>
